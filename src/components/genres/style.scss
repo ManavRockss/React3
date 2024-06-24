@@ -1,0 +1,21 @@
+.genres{
+    display: flex;
+    gap: 5px;
+    .genre{
+        color: white;
+        padding: 3px 5px;
+        font-size: 12px;
+        border-radius: 10px;
+        background-color: #252528;
+        white-space: normal;
+        font-weight: bold;
+        &:hover{
+            background-color: #464854;
+            color: white;
+            transition: ease-in-out 0.3s;
+            
+        }
+
+    }
+
+}
